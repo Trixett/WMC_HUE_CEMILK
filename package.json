@@ -1,6 +1,6 @@
 {
   "name": "password-generator-cemilkandemir",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Generiert zufällige Passwörter mit einstellbarer Länge und optionalen Sonderzeichen",
   "type": "commonjs",
   "main": "index.js",
