@@ -1,7 +1,7 @@
 {
   "name": "password-generator-cemilkandemir",
   "version": "0.3.0",
-  "description": "",
+  "description": "Generiert zufällige Passwörter mit einstellbarer Länge und optionalen Sonderzeichen",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,18 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "keywords": [
+    "password",
+    "generator",
+    "passwort"
+  ],
+  "author": "Cemil Kandemir",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trixett/WMC_HUE_CEMILK.git"
+  },
   "devDependencies": {
-    "demon": "^0.0.1",
     "nodemon": "^3.1.14"
   }
 }

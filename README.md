@@ -25,6 +25,13 @@ generatePassword(16, true);  // 16 Zeichen, mit Sonderzeichen
 | `length`        | number  | `10`     | Länge des Passworts     |
 | `sonderzeichen` | boolean | `false`  | Sonderzeichen verwenden |
 
+Bei ungültigen Werten wird ein Fehler geworfen:
+
+- `length` ist keine ganze Zahl größer als 0 → `RangeError`
+- `sonderzeichen` ist kein Boolean → `TypeError`
+
+Die Zufallszahlen kommen aus `crypto.randomInt` (kryptografisch sicher, gleichverteilt).
+
 Verwendete Zeichen:
 
 - Buchstaben: `A-Z`, `a-z`
